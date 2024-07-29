@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google" content="notranslate">
+        <title>Zzzone</title>
+        <style>
+
+            body{
+                background-color: black;
+                font-family: Verdana, Geneva, Tahoma, sans-serif
+            }
+            h1{
+                color: white;
+                text-align: center
+            }
+            h2{
+                color: white;
+                text-align: center
+            }
+            form {
+                font-size: 20px;
+                color: white
+            }
+            .form-grid {
+                display: grid;
+                place-items: center;
+                grid-gap: 5px
+                
+            }
+            .smaller {
+                width: 500px;
+                height: 30px
+            }
+            .img-container{
+                display: grid;
+                place-items: center
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <input type="submit" value="log in">
+            <input type="submit" value="sign up">
+        </nav>
+        <h1> Formulario de Zzzone </h1>
+        <div class="img-container">
+        <img src="https://img.freepik.com/free-vector/insomnia-concept-illustration_114360-3566.jpg" alt="imagen" id="imagen">
+        <div>
+        <h2> Complete el formulario a continuacion para vender sus datos a Meta </h2>
+        <br>
+        
+        <form>
+            <div class="form-grid">
+                <label for="nombre"> Nombre: </label>
+                <input type="text" id="nombre" class="smaller">
+                <br>
+                <label for="email"> Email: </label>
+                <input type="email" id="email" class="smaller">
+                <br>
+                <label for="user"> Usuario: </label>
+                <input type="user" id="user" class="smaller">
+                <br>
+                <label for="password"> Contraseña: </label>
+                <input type="password" id="password" class="smaller">
+                <br>
+                <label for="fecha"> Fecha de nacimiento: </label>
+                <input type="date" id="fecha" class="smaller">
+                <br>
+                <label for="genero"> Genero: </label>
+                <select id="genero" class="smaller">
+                    <option value="masculino"> Masculino </option>
+                    <option value="femenino"> Femenino </option>
+                    <option value="otro"> Otro </option>
+                </select>
+                <br>
+                <label for="dormir"> Cuanto duerme: </label>
+                <select id="dormir" class="smaller">
+                    <option value="3 horas"> 3 horas </option>
+                    <option value="4 horas"> 4 horas </option>
+                    <option value="5 horas"> 5 horas </option>
+                    <option value="6 horas"> 6 horas </option>
+                    <option value="7 horas"> 7 horas </option>
+                    <option value="8 horas"> 8 horas </option>
+                    <option value="9 horas"> 9 horas </option>
+                </select>
+                <br>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </body>
+</html>
+
